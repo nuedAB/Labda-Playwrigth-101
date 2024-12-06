@@ -27,11 +27,11 @@ Locate the slider labeled "Default value 15".
 Drag the slider to adjust the value to 95.
 Validate that the displayed range value matches 95.
 
+*********************************************************************************************************************************
+
 Test Scenario 3: Input Form Submit
 Objective
 Verify the input form validation and successful submission flow.
-
-*********************************************************************************************************************************
 
 Steps
 Navigate to the LambdaTest Selenium Playground.
