@@ -1,18 +1,21 @@
 {
-  "name": "playwright101",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@playwright/test": "^1.49.0",
-    "@types/node": "^22.10.1"
+  "name": "lambdatest-playwright-sample",
+  "scripts": {
+    "test": "node playwright-single.js",
+    "test-smartui": "node playwright-smartui.js",
+    "test-parallel": "node playwright-parallel.js",
+    "test-android": "node playwright-android-real-device.js",
+    "test-extension": "node playwright-extensions-test.js",
+    "test-iPhone-emulation": "node playwright-single-on-iphone.js",
+    "test-lighthouse-report": "node playwright-lighthouse-report.js"
   },
-  "dependencies": {
-    "playwright": "^1.49.1",
-    "typescript": "^5.7.2"
+  "engines": {
+    "node": ">=12.7.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.0",
+    "playwright": "^1.35.0",
+    "@cucumber/cucumber": "^7.3.2",
+    "expect": "^29.5.0"
   }
 }
